@@ -3,6 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Tech Valley Ruby Brigade</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- New -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- New -->
+  
+  
   <meta name="description" content="Ruby enthusiasts from the Albany, Troy, Schenectady and Saratoga Springs, NY area">
   <meta name="author" content="Tech Valley Ruby Brigage, info@techvalleyrb.org">
   <meta name="keywords" content="ruby, troy, albany, schenectady, saratoga springs, ruby on rails">
@@ -30,10 +35,10 @@
   
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  
+
   <link href="assets/css/site.css" rel="stylesheet">
  
- 
+	
   
 
   <!-- Le fav and touch icons -->     <!-- MIGHT BE ABLE TO TAKE ALL OF THIS OUT-->
@@ -48,7 +53,7 @@
 
   <!-- Topbar
   ================================================== -->
-  <div class="topbar" data-scrollspy="scrollspy" >
+ <!-- <div class="topbar" data-scrollspy="scrollspy" >
     <div class="topbar-inner">
       <div class="container">
         <a class="brand" href="#">Tech Valley Ruby Brigade</a>
@@ -62,8 +67,33 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
+	
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">TechValleyrb.org</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          <!--  <li class="active"><a href="#">Home</a></li> -->  <!-- PROBABLY DONT NEED-->
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
+	
+	
+	
   <!-- Masthead
   ================================================== -->
   <header class="jumbotron masthead" id="hero">
@@ -170,16 +200,9 @@
     <p>Copyright 2014 - Tech Valley Ruby Brigade</p>
   </div>
 </footer>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> 
 
-<!-- Le javascript -->
-<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
-<script src="http://autobahn.tablesorter.com/jquery.tablesorter.min.js"></script>
-<script src="assets/js/google-code-prettify/prettify.js"></script>
-<script>$(function () { prettyPrint() })</script>
-<script src="1.4.0/bootstrap-dropdown.js"></script>
-<script src="1.4.0/bootstrap-twipsy.js"></script>
-<script src="1.4.0/bootstrap-scrollspy.js"></script>
-<script src="assets/js/application.js"></script>
 
 </body>
 </html>
