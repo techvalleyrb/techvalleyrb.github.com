@@ -3,6 +3,7 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+	
 }
 
 
@@ -11,3 +12,8 @@ body {
   width:250px;
 }
 
+.jumbotron {
+  background: transparent url(../img/skyline.png);
+	height: 193px;
+	color: white;
+}
