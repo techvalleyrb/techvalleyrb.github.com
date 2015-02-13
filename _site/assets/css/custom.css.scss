@@ -1,4 +1,3 @@
-
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
@@ -11,8 +10,8 @@ body {
 	text-align: center;
 }
 
-.jumbotron h1 {
-	font-size: 2.8em;
+h1 {
+font-size:	36px;
 }
 
 .addthis_toolbox {
@@ -27,8 +26,8 @@ body {
 }
 
 .jumbotron p {
-	
-	font-weight: 300;
+	font-size: 20px;
+	font-weight: 400;
 }
 
 
@@ -55,3 +54,15 @@ body {
   color: #555;
 }
 
+@media (min-width: 776px) {
+	.jumbotron p {
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 996px) {
+ .jumbotron h1{
+	font-size: 36px;
+	}
+
+}

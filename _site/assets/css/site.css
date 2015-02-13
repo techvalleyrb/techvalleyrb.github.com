@@ -2,9 +2,13 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-
-
+}
+.center {
+	text-align: center;
+}
 	
+.overview h3{
+	text-align: center;
 }
 
 .jumbotron h1 {
@@ -23,16 +27,14 @@ body {
 }
 
 .jumbotron p {
-	font-size: 1.6em;
+	
 	font-weight: 300;
 }
 
 
-}
 
-.center {
-	text-align: center;
-}
+
+
 
 .location {
 	/*margin-top: 70px; */
