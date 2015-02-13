@@ -6,8 +6,15 @@ body {
 	text-align: center;
 }
 	
+.center-img {
+	  
+    margin-left: auto;
+    margin-right: auto }
+}	
+	
 .overview h3{
 	text-align: center;
+
 }
 
 h1 {
@@ -41,8 +48,9 @@ font-size:	36px;
 }
 
 
-
-
+.overview-icons {
+	width: 50%;
+}
 
 
 .location {
@@ -70,6 +78,9 @@ font-size:	36px;
 		line-height: 28px;
 		font-weight: 300;
 	}
+
+
+
 }
 
 @media (max-width: 996px) {
