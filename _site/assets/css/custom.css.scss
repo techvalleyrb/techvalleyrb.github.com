@@ -1,7 +1,8 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  margin-top: 50px;
 }
+
 .center {
 	text-align: center;
 }
@@ -53,9 +54,7 @@ font-size:	36px;
 }
 
 
-.location {
-	/*margin-top: 70px; */
-}
+
 
 
 .footer {
@@ -94,7 +93,13 @@ font-size:	36px;
 		font-weight: 300;
 	}
 
-
+  .overview {
+ 	 margin-top: 50px;
+  } 
+	
+	.location {
+	 margin-top: 50px; 
+  }
 
 }
 
