@@ -3,7 +3,7 @@ body {
   margin-top: 50px;
 }
 
-.questions {
+.headers {
 	color: rgb(0, 153, 153);
 	font-size: 2em;
 }
@@ -31,6 +31,11 @@ body {
 	text-align: center;
 
 }
+
+#contact-us{
+	margin-bottom:30px;
+}
+
 
 h1 {
 font-size:	36px;
@@ -84,6 +89,27 @@ font-size:	36px;
 .footer p {
   color: #555;
 }
+
+
+
+.divider-vertical {
+height: 50px;
+margin: 0 9px;
+border-right: 1px solid #ffffff;
+border-left: 1px solid #f2f2f2;
+}
+
+.divider-vertical {
+border-right-color: #222222;
+border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+ .divider-vertical {
+    display: none;
+  }
+}
+
 
 
 
