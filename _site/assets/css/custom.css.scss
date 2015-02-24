@@ -100,6 +100,11 @@ font-size:	36px;
 }
 
 
+.google-map {
+	height:250px;
+}
+
+
 .contact-row {
 	margin-bottom: 40px;
 
@@ -165,7 +170,7 @@ font-size:	36px;
 }
 
 
-@media (min-width: 776px) {
+@media (min-width: 768px) {  
 	.jumbotron p {
 		font-size: 26px;
 		line-height: 28px;
@@ -180,6 +185,11 @@ font-size:	36px;
 	 margin-top: 50px; 
   }
 
+	.google-map {
+		height:350px;
+	}
+
+	
 	.why p {
 		font-size: 50px;
 	}
@@ -190,7 +200,7 @@ font-size:	36px;
 
 }
 
-@media (max-width: 996px) {
+@media (max-width: 992px) {
  .jumbotron h1{
 	font-size: 36px;
 	}
