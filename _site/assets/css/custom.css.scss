@@ -121,13 +121,13 @@ font-size:	36px;
 
 .footer {
   background-color: #4C4C4C;
-  min-width: 940px;
   padding: 30px 0;
 	height: 130px;
 }
 .footer p {
+  padding-left:15px;
   color: white;
-	font-size: 17px;
+	font-size: 20px;
 }
 
 
@@ -172,6 +172,10 @@ font-size:	36px;
 
 	.why p {
 		font-size: 50px;
+	}
+
+	.footer p {
+		padding-left: 25px;
 	}
 
 }
