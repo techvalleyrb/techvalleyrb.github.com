@@ -83,7 +83,7 @@ font-size:	36px;
 
 
 .overview-icons {
-	
+	width: 42%;
 	max-width: 217px;
 	margin-top: 20px;
 }
@@ -170,6 +170,9 @@ font-size:	36px;
 
 @media (min-width: 768px) {  
 	
+	
+	
+	
 	.jumbotron h1{
 		font-size: 55px;
 	}
@@ -182,10 +185,22 @@ font-size:	36px;
 
   .overview {
  	 margin-top: 30px;
+  
   } 
 	
+	
+	#coder-icon {
+		width:50%
+	}
+	
+	
+	.contact-row .lead {
+		font-size: 21px;
+	}
+	
+	
 	.location {
-	 margin-top: 50px; 
+	 margin-top: 30px; 
   }
 
 	#location-icon {
